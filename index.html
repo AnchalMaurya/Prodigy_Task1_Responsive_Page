@@ -1,175 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Responsive Landing Page</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Professional Landing Page</title>
+</head>
+<body>
 
-  <body>
-    <nav>
-      <div class="heading">Responsive Landing Page</div>
-      <span class="sideMenuButton" onclick="openNavbar()"> ☰ </span>
-
-      <div class="navbar">
-        <ul>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#Projects">Courses</a></li>
-          <li><a href="#Sign_Up">Sign Up</a></li>
-          <li><a href="#Contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Side navigation bar for responsiveness -->
-    <div class="sideNavigationBar" id="sideNavigationBar">
-      <a href="#" class="closeButton" onclick="closeNavbar()"> </a>
-      <a href="#">Home</a>
-      <a href="#">Courses</a>
-      <a href="#">Sign Up</a>
+  <!-- Navbar -->
+  <nav>
+    <div class="heading">Anchal Maurya</div>
+    <span class="sideMenuButton" onclick="openNavbar()">☰</span>
+    <div class="navbar">
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Courses">Courses</a></li>
+        <li><a href="#Sign_Up">Sign Up</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
     </div>
+  </nav>
 
-    <!-- The Actual content -->
-    <div class="line" id="Home">
-      <div class="side1">
-        <h1>Responsive Landing Page</h1>
-        <br>
-        <h2>By Anchal Maurya</h2>
-        <button>
-          <a href="#"> Learn More ! </a>
-        </button>
+  <!-- Side Navigation -->
+  <div class="sideNavigationBar" id="sideNavigationBar">
+    <a href="javascript:void(0)" class="closeButton" onclick="closeNavbar()">✖</a>
+    <a href="#Home">Home</a>
+    <a href="#Courses">Courses</a>
+    <a href="#Sign_Up">Sign Up</a>
+    <a href="#Contact">Contact</a>
+  </div>
+
+  <!-- Floating Background Shapes -->
+  <div class="floating-shape shape1"></div>
+  <div class="floating-shape shape2"></div>
+  <div class="floating-shape shape3"></div>
+  <div class="floating-shape shape4"></div>
+
+  <!-- Hero Section -->
+  <section class="hero fade-in" id="Home">
+    <div class="hero-content">
+      <div class="text-side">
+        <h1>Professional Landing Page</h1>
+        <p>Learn, Grow & Master Skills with Anchal Maurya</p>
+        <a href="#Courses" class="cta-button">Explore Courses</a>
       </div>
-      <div class="side2">
-        <!-- Side Image  -->
-        <img
-          src="/image.jpg"
-          width="500"
-        />
+      <div class="image-side">
+        <img src="image.jpg" alt="Hero Image" />
       </div>
     </div>
+  </section>
 
-      <!-- Courses Content  -->
-
-    <section class="about" id="Projects">
-      <div class="content">
-        <div class="title">
-          <span>Courses</span>
+  <!-- Courses Section -->
+  <section class="about fade-in" id="Courses">
+    <div class="content">
+      <h2 class="section-title">Courses</h2>
+      <div class="boxes">
+        <div class="box">
+          <h3>CSS</h3>
+          <p>Master Cascading Style Sheets (CSS) for stunning web designs.</p>
         </div>
-        <div class="boxes">
-          <div class="box">
-            <div class="topic">
-              <a href="" target="_blank"> CSS </a>
-            </div>
-            <p>
-                Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
-            </p>
-          </div>
-          <div class="box">
-            <div class="topic">
-              <a href="" target="_blank"> HTML </a>
-            </div>
-            <p>
-              HTML stands for "HyperText Markup Language." It is the standard
-              markup language used for creating and structuring the content of
-              web pages and web applications.
-            </p>
-          </div>
-
-          <div class="box">
-            <div class="topic">
-              <a href="" target="_blank"> C </a>
-            </div>
-            <p>
-              C is a general-purpose, procedural programming language developed
-              in the early 1970s by Dennis Ritchie at Bell Labs. It is one of
-              the most influential programming languages and has had a
-              significant impact on the field of computer science.
-            </p>
-          </div>
-          <div class="box">
-            <div class="topic">
-              <a href="" target="_blank"> Python </a>
-            </div>
-            <p>
-                Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.It supports object-oriented and functional programming. 
-            </p>
-          </div>
-          <div class="box">
-            <div class="topic">
-              <a href="" target="_blank"> JS </a>
-            </div>
-            <p>
-                JavaScript often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.
-            </p>
-          </div>
+        <div class="box">
+          <h3>HTML</h3>
+          <p>Learn HyperText Markup Language (HTML) to structure web pages.</p>
+        </div>
+        <div class="box">
+          <h3>C</h3>
+          <p>Understand C programming, the foundation of many modern languages.</p>
+        </div>
+        <div class="box">
+          <h3>Python</h3>
+          <p>Learn Python for web development, data analysis, and automation.</p>
+        </div>
+        <div class="box">
+          <h3>JavaScript</h3>
+          <p>JavaScript powers the interactivity of modern websites.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-      <!-- The Sign Up Section  -->
+  <!-- Sign Up Section -->
+  <section class="Sign_Up fade-in" id="Sign_Up">
+    <div class="content">
+      <h2 class="section-title">Sign Up</h2>
+      <form class="signup-form" id="signupForm">
+        <input type="text" id="name" placeholder="Enter Your Name" required />
+        <input type="email" id="email" placeholder="Enter Your Email" required />
+        <input type="password" id="password" placeholder="Enter Your Password" required />
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </section>
 
-    <section class="Sign_Up" id="Sign_Up">
-      <div class="content">
-        <div class="title"><span>Sign Up</span></div>
-        <div class="contactMenu">
-          <div class="input1">
-            <div class="label1">Your Name</div>
-            <div class="input2">
-              <input type="text" placeholder="Enter your Name" />
-            </div>
-            <div class="label1">
-              <label>Your Email</label>
-            </div>
-            <div class="input2">
-              <input type="text" placeholder="Enter your Email" />
-            </div>
-            <div class="label1">
-              <label>Your Password</label>
-            </div>
-            <div class="input2">
-              <input type="text" placeholder="Enter your Password" />
-            </div>
-            <div class="button">
-              <button>Sign Up</button>
-            </div>
-            <br>
-          </div>
-          <div class="input3">
-            <div class="rightside1">
-              </div>
-              <div class="title1">
-                <span>More Information</span>
-              </div>
-              <div class="content1">
-                A landing page is a web page designed specifically to convert
-                visitors into leads or customers by encouraging them to take a
-                specific action, such as signing up for a newsletter,
-                downloading a resource, or making a purchase. Landing pages are
-                commonly used in digital marketing campaigns, as they provide a
-                focused and targeted experience to the visitors, increasing the
-                likelihood of achieving the desired conversion goal.
-              </div>
-            </div>
-          </div>
-        </div>
+  <!-- Contact Section -->
+  <section class="Contact fade-in" id="Contact">
+    <div class="content">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:anchalmaurya2408@gmail.com">anchalmaurya2408@gmail.com</a></p>
+        <p>Phone: <a href="tel:+918340363465">+91 8340363465</a></p>
+        <p>Address: Roorkee, Haridwar, India</p>
       </div>
-    </section>
-       <!--Contact Us Section-->
-       <section class="Contact" id="Contact">
-        <div class="content">
-          <div class="title"><span>Contact Us</span></div>
-          <div class="contactMenu">
-          <h4>Email : anchalmaurya2408@gmail.com</h4>
-          <br>
-          <h4>Contact No. : 8340363465</h4>
-          <br>
-          <h4>Add : Roorkee , Haridwar , INDIA.</h4>
-          </div>
-          </div>
-        </div>
-      </section>
-    <script src="script.js"></script>
-  </body>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Anchal Maurya. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
