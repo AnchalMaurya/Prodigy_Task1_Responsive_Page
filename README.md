@@ -49,11 +49,17 @@ This project demonstrates modern web design practices with a clean UI, smooth re
 
 
 📦 Responsive-Landing-Page
+
  ┣ 📜 index.html     # Main HTML page
+ 
  ┣ 📜 style.css      # Stylesheet
+ 
  ┣ 📜 script.js      # JavaScript functionality
+ 
  ┣ 📂 assets/
+ 
  ┃ ┗ image.jpg       # Landing page image
+ 
  ┗ 📜 README.md      # Project documentation
 
 ## ⚡ How to Run Locally
