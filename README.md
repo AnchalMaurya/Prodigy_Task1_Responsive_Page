@@ -16,7 +16,9 @@ This project demonstrates modern web design practices with a clean UI, smooth re
 
 📸 Preview
 
-🔗 Live Demo on GitHub Pages
+## 🔗 Live Demo on GitHub Pages
+
+![video](https://github.com/AnchalMaurya/Prodigy_Task1_Responsive_Page/blob/main/Landing_Page.mp4)
 
 ✨ Features
 
