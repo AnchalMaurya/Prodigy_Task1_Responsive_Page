@@ -1,6 +1,8 @@
 ## Responsive Landing Page 🚀
 
 
+![pic2](https://github.com/AnchalMaurya/Prodigy_Task1_Responsive_Page/blob/main/Screenshot%202025-09-26%20175607.png)
+
 
 
 
