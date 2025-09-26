@@ -14,35 +14,40 @@
 A fully responsive and interactive landing page built using HTML, CSS, and JavaScript.
 This project demonstrates modern web design practices with a clean UI, smooth responsiveness, and an easy-to-use layout for showcasing courses, sign-up forms, and contact details.
 
-📸 Preview
+## 📸 Preview
 
-## 🔗 Live Demo on GitHub Pages
+![pic](https://github.com/AnchalMaurya/Prodigy_Task1_Responsive_Page/blob/main/image.jpg)
 
-![video](https://github.com/AnchalMaurya/Prodigy_Task1_Responsive_Page/blob/main/Landing_Page.mp4)
 
-✨ Features
+## ✨ Features
 
-📱 Responsive Navbar – Works seamlessly across desktop & mobile.
+**Responsive Design**: Works seamlessly on desktops, tablets, and mobile devices.
 
-🎨 Modern UI Design – Minimal and elegant.
+**Smooth Scrolling Navigation**: Click on any menu link and scroll smoothly to the section.
 
-📂 Courses Section – Highlights multiple courses (HTML, CSS, Python, JS, etc.).
+**Side Navigation for Mobile**: Mobile-friendly side menu for easy navigation.
 
-📝 Sign-Up Form – Interactive form with input fields.
+**Floating Background Animations**: Decorative floating shapes add visual depth.
 
-📞 Contact Section – Quick access to email, phone & location.
+**Hero Section**: Eye-catching landing hero with a call-to-action button.
 
-⚡ Lightweight & Fast – Pure HTML, CSS, and JavaScript.
+**Courses Section**: Showcase multiple courses in interactive cards.
 
-🛠️ Tech Stack
+**Sign-Up Form**: Form validation with alerts on successful submission.
 
-HTML5 – Page structure
+**Contact Section**: Easily accessible contact info with email and phone links.
 
-CSS3 – Styling and responsiveness
+## 🛠️ Tech Stack
 
-JavaScript (ES6) – Interactivity
+**HTML5** – Semantic markup for sections, forms, and content.
 
-📂 Project Structure
+**CSS3** – Styling, animations, transitions, and responsive layout.
+
+**JavaScript (Vanilla)** – DOM manipulation, smooth scrolling, form validation, scroll animations.
+
+## 📂 Project Structure
+
+
 📦 Responsive-Landing-Page
  ┣ 📜 index.html     # Main HTML page
  ┣ 📜 style.css      # Stylesheet
@@ -51,7 +56,7 @@ JavaScript (ES6) – Interactivity
  ┃ ┗ image.jpg       # Landing page image
  ┗ 📜 README.md      # Project documentation
 
-⚡ How to Run Locally
+## ⚡ How to Run Locally
 
 Clone this repository:
 
@@ -62,40 +67,6 @@ Navigate into the project folder:
 
 cd responsive-landing-page
 
-
-Open index.html in your browser.
-
-🌍 Deploy Online (Free)
-🔹 GitHub Pages
-
-Push your project to a GitHub repository.
-
-Go to Settings > Pages.
-
-Select branch main (or master) and folder /root.
-
-Save – your site will be live at:
-
-https://your-username.github.io/responsive-landing-page/
-
-🔹 Netlify (One-Click)
-
-Go to Netlify
-.
-
-Drag & drop your project folder into the dashboard.
-
-Done – your site will be live with a free custom URL.
-
-🎯 Future Enhancements
-
-✅ Smooth scrolling animations.
-
-✅ Dark/Light mode toggle.
-
-✅ Backend integration for form submission.
-
-✅ Dynamic course cards with JSON data.
 
 🤝 Contributing
 
@@ -109,14 +80,10 @@ Commit your changes
 
 Open a Pull Request 🚀
 
-📬 Contact
+## 📬 Contact
 
 👨‍💻 Author: Anchal Maurya
 
 📍 Location: Roorkee, Haridwar, India
 
 ⭐ If you like this project, give it a star on GitHub! ⭐
-
-
-
-![pic](https://github.com/AnchalMaurya/Prodigy_Task1_Responsive_Page/blob/main/image.jpg)
